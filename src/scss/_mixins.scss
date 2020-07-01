@@ -1,0 +1,19 @@
+@mixin center-items {
+    display: flex;
+    place-items: center;
+}
+@mixin phone {
+    @media screen and (max-width: $screen-sm) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (max-width: $screen-md) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media screen and (max-width: $screen-lg) {
+        @content;
+    }
+}

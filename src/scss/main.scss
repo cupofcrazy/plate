@@ -1,0 +1,79 @@
+@import './fonts';
+@import './variables';
+@import './layout';
+@import './mixins';
+
+
+:root {
+    --main-color: #1c1c1c;
+    --accent-color: #fcfcfc;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--main-color);
+    padding: .8em;
+    transition: all .3s ease-in-out;
+
+    &.dark {
+        --main-color: #1C1C1C;
+        --accent-color: #F8EFE0;
+    }
+}
+
+[data-entry] {
+    opacity: 0;
+}
+
+[data-entry].in-view {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-color);
+}
+
+#root {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
