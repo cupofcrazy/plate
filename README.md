@@ -1,11 +1,11 @@
 # Plate — ©2020
 
-##Tools used:
+## Tools used:
 - Babel
 - Webpack
 - SASS (CSS Styling)
 
-###Other Utilities
+### Other Utilities
 - lodash
 
 
