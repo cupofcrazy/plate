@@ -16,5 +16,6 @@
 ## Terminal
 | Code                | Description                                              | 
 | ------------------- | -------------------------------------------------------- |
+| `npm install`       | Install dependencies                                     |
 | `npm run dev`       | Runs app with development mode on `http://localhost:5000`|
 | `npm run build`     | Builds the app for production to the `dist` folder.      |
