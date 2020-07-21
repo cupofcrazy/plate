@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "gsap": "^3.2.6",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
