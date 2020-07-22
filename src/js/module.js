@@ -4,7 +4,7 @@ class Module {
      * @param { String } message Module example message
      */
     constructor(message) {
-        this.msg - msg
+        this.msg = message
     }
     get message() {
         return this.msg

@@ -1,3 +1,4 @@
+import './scss/main.scss'
 import Module from "./js/module";
 
 
